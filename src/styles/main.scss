@@ -1,0 +1,20 @@
+@import 'base';
+// @import '~bootstrap/scss/bootstrap.scss';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #ccc;
+  background-image: url('https://images.unsplash.com/photo-1499479061019-b5d178fc3a4c?dpr=1&auto=compress,format&fit=crop&w=750&h=&q=80&cs=tinysrgb&crop= 750w');
+  background-size: cover;
+  background-position: bottom;
+  font-family: 'Josefin Sans', sans-serif;
+}
