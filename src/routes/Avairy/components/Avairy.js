@@ -65,7 +65,7 @@ class Avairy extends Component {
               Drag and Drop Image here
             </h3>
             <p>or</p>
-            <h4>Click Here to upload</h4>
+            <h4>Click here to upload</h4>
           </Dropzone>}
           {this.state.file && <img id='imgToEdit' src={this.state.file} className="imageToEdit" />}
           <div className='action-btn'>
